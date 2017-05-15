@@ -1,4 +1,4 @@
-# Ekspresja genów Shiny
+# Ekspresja genów ludzkich - Shiny
 
 Na wejściu użytkownik wprowadza nazwę genu. Aplikacja tworzy wykres przedstawiający ekspresję genów w różnych tkankach.
 
