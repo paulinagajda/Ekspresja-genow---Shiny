@@ -36,7 +36,7 @@ all(dane$X==dane2$ID)
 dane2=dane2[order(match(dane2$ID, dane$X)),] 
 all(dane2$ID==dane$X)
 
-4. Utworzono jedną tabelę zawierającą ID genu, jego symbol oraz ekspresję w danych tkankach (ułożone alfabetycznie)
+4. Utworzono jedną tabelę zawierającą ID genu, jego symbol oraz ekspresję w danych tkankach.
 
 dane$Gen.symbol=dane2$Gene.symbol
 dane=dane[,c(1,12,2,3,4,5,6,7,8,9,10,11)]
